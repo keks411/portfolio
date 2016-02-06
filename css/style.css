@@ -1,0 +1,126 @@
+@media screen {
+	div#preloader {
+		position: absolute;
+		left: -9999px;
+		top:  -9999px;
+		}
+	div#preloader img {
+		display: block;
+		}
+	}
+@media print {
+	div#preloader, 
+	div#preloader img {
+		visibility: hidden;
+		display: none;
+		}
+	}
+
+
+a {
+  outline:none;
+  font-size:1px;
+}
+
+
+.background-dark {
+  background-image: url("/images/background.jpg");
+}
+
+.jumbotron {
+  background-color: transparent;
+}
+
+#me {
+  text-align: center;
+  color: silver;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 46px;
+  margin-top: 70px;
+  margin-bottom: 500px;
+}
+
+#skills {
+  text-align: center;
+  color: silver;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+#jskills {
+  margin-bottom: 100px;
+}
+
+#projects {
+  text-align: center;
+  color: silver;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 46px;
+  margin-top: 130px;
+  margin-bottom: 60px;
+}
+
+.pbackground {
+  background-image: url("/images/background_turned.jpg");
+  margin-bottom: -100px;
+}
+
+#contact {
+  font-size: 12px;
+  margin-top: 150px;
+}
+.images {
+  width:300px;
+  height:200px;
+}
+
+
+
+.btn-github {
+  border-radius: 0;
+  width: 50px;
+  height: 50px;
+  background-image: url("/images/git.jpg")
+}
+
+.btn-github:active,
+.btn-github:hover {
+  background-image: url("/images/gitalt.jpg")
+}
+
+.btn-facebook {
+  border-radius: 0;
+  width: 50px;
+  height: 50px;
+  background-image: url("/images/fb.jpg")
+}
+
+.btn-facebook:active,
+.btn-facebook:hover {
+  background-image: url("/images/fbalt.jpg")
+}
+
+.btn-fcc {
+  border-radius: 0;
+  width: 50px;
+  height: 50px;
+  background-image: url("/images/fcc.jpg")
+}
+
+.btn-fcc:active,
+.btn-fcc:hover {
+  background-image: url("/images/fccalt.jpg")
+}
+
+.btn-linkedin {
+  border-radius: 0;
+  width: 50px;
+  height: 50px;
+  background-image: url("/images/linkedin.jpg")
+}
+
+.btn-linkedin:active,
+.btn-linkedin:hover {
+  background-image: url("/images/linkedinalt.jpg")
+}
