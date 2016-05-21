@@ -79,8 +79,7 @@ body {
 }
 
 .pbackground {
-  background-image: url("/images/background_turned.jpg");
-  margin-bottom: -100px;
+  background-color:black;
 }
 
 #contact {
